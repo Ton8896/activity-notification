@@ -1,0 +1,64 @@
+.notifications{
+    margin: 30px auto;
+}
+
+.notification{
+    display: flex;
+    align-items: center;
+}
+
+.notification .action {
+    opacity: 0;
+    display: flex;
+}
+
+.notification:hover .action {
+    opacity: 1;
+}
+
+.notification .action a {
+    color: #999999;
+    margin-left: 16px;
+    font-size: 14px;
+    text-decoration: none;
+}
+  
+.notification .action a:hover {
+    color: #333333;
+}
+
+.notification>img{
+    width: 60px;
+    border-radius: 50%;
+}
+
+.notification{
+    background-color: white;
+    padding: 8px 16px;
+    border-bottom: 1px solid rgb(235,235,235);
+}
+
+.action{
+    display: flex;
+}
+
+.paragrafi{
+    flex-grow: 1;
+    padding: 0 24px;
+}
+
+.paragrafi>p>a{
+    text-decoration: none;
+    color: #268BD2;
+}
+
+.data{
+    font-weight: bold;
+    font-size: smaller;
+    color: #999999;
+}
+
+.paragrafi>p{
+    margin: 0;
+}
+   

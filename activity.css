@@ -1,0 +1,15 @@
+@import url(componenti/banner-activity.css);
+@import url(componenti/navbar-activity.css);
+@import url(componenti/notifications-activity.css);
+
+body{
+    margin: 0;
+    margin-bottom: 100px;
+    font-family: "Open Sans", "Helvetica", "sans-serif";
+    background-color: #f7f7f7;
+}
+
+.container{
+    max-width: 900px;
+    margin: 30px auto;
+}
